@@ -477,3 +477,29 @@ public class StatusDemo {
   - notify（）唤醒一个处于等待状态的线程
   - notifyAll()唤醒同一个对象上所有调用wait方法的线程，优先级别高的线程优先调度
 
+***
+
+- 线程池
+
+  - 提高响应速度
+
+  - 降低资源消耗
+
+  - 便于线程管理
+
+    - corePoolSize：核心池的大小
+    - maximumPoolSize：最大线程数
+    - keepAliveTime：线程没有任务时最多保持多长时间会终止
+
+  - executorServce
+
+    ```
+    ExecutorService service = Executors.newFixedThreadPool(10);
+    service.execute(new MyThread());
+    service.execute(new MyThread());
+    service.execute(new MyThread());
+    service.execute(new MyThread());
+    service.shutdownNow();
+    ```
+
+***
