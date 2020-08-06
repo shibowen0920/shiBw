@@ -430,7 +430,7 @@ Nginx 中的配置要点：
 - 将 autoindex 开启可以显示目录，默认不开启。
 - 将 autoindex_exact_size 开启可以显示文件的大小。
 - 将 autoindex_localtime 开启可以显示文件的修改时间。
-- root 用来设置开放为文件服务的根路径。
+- root 用来设置开放为文件服务的根路径。                                                                                                                                                                       
 - charset 设置为 `charset utf-8,gbk;`，可以避免中文乱码问题（windows 服务器下设置后，依然乱码，本人暂时没有找到解决方法）。
 
 一个最简化的配置如下：

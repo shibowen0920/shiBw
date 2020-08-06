@@ -1,4 +1,4 @@
-#### POI和easyExcel
+#### POI
 
 ***
 
@@ -295,8 +295,3 @@ public void testReadType() throws Exception {
       System.out.println(cellValue);
   }
   ```
-
-***
-
-- easyExcel
-- 
